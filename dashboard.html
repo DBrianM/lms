@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css"> <!-- Include your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="user-info">
+			<span>Welcome, KIAGE😊</span> <!--user's name -->
+			<!-- Logout button with an icon -->
+			<a href="index.html">
+				<i class="fas fa-sign-out-alt logout-icon"></i> Logout
+			</a>
+		</div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.htm">Profile</a></li>
+                    <li><a href="leader-board.html">Leaderboard</a></li>
+                    <li><a href="course-content.html">Course Content</a></li>
+                    <!-- Add more navigation links as needed -->
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <div class="dashboard-widgets">
+                <div class="widget">
+                    <h2>Upcoming Assignments</h2>
+                    <ul>
+                        <li>Assignment 1: Due April 30, 2024</li>
+                        <li>Assignment 2: Due May 7, 2024</li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h2>Recent Announcements</h2>
+                    <ul>
+                        <li>New course material available for download</li>
+                        <li>Office hours changed to Tuesdays and Thursdays</li>
+                    </ul>
+                </div>
+            </div>
+            <section id="leaderboard" class="tab-content">
+                <h2>Leaderboard</h2>
+                <p>This is where the leaderboard content will be displayed.</p>
+            </section>
+            <section id="course-content" class="tab-content">
+                <h2>Course Content</h2>
+                <p>This is where the course content will be displayed.</p>
+            </section>
+            <!-- Add more sections for other dashboard features -->
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your LMS</p>
+    </footer>
+
+    <!-- Include your client-side JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

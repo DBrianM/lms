@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Lms.jpeg'); /* Replace 'background-image.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.5); /* Glassmorphism effect */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"],
+button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+input[type="submit"],
+button {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    opacity: 0.9;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+    background-color: cyan; /* Button color */
+}
+
+input[type="submit"] {
+    background-color: blue; /* Button color */
+}

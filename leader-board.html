@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('lms.jpeg'); /* Add your background image here */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .leaderboard {
+            width: 80%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.3); /* Glassmorphism effect */
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="leaderboard">
+    <h2 style="text-align: center; padding: 20px;">Leaderboard</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Student A</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Student B</td>
+                <td>480</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Student C</td>
+                <td>450</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Student D</td>
+                <td>420</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Student E</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Student F</td>
+                <td>380</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Student G</td>
+                <td>360</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Student H</td>
+                <td>340</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Student I</td>
+                <td>320</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Student J</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

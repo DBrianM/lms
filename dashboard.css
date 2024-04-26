@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-image: url('Lms.jpeg'); /* Replace 'Lms.jpeg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 80px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info span {
+    margin-right: 10px;
+  }
+  
+  .user-info a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-info a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+  }
+  
+  .container {
+    display: flex;
+    height: calc(100vh - 80px);
+  }
+  
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.8); /* Glassmorphism effect */
+    width: 30%;
+    padding: 20px;
+    border-right: 2px solid #ccc; /* Border to show separation */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: cyan; /* Hover color */
+    color: white;
+  }
+  
+  .content {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  .dashboard-widgets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .widget {
+    width: 30%;
+    background-color: #34e569;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px;
+  }
+  
+  .widget h2 {
+    margin-top: 0;
+  }
+  
